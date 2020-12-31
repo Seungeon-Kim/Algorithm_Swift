@@ -18,7 +18,7 @@
 //3
 import Foundation
 
-class Solution11722 {
+class Solution11722: Resultable {
     let arr: [Int]
     
     init(arr: [Int]) {
