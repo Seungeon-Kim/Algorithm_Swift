@@ -6,3 +6,10 @@
 //
 
 import Foundation
+<<<<<<< Updated upstream
+=======
+
+let solution: Resultable = Solution_6986()
+solution.result()
+
+>>>>>>> Stashed changes
