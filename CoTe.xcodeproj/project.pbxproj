@@ -10,6 +10,10 @@
 		FC0F4CBD259CF08300AB3B09 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F4CBC259CF08300AB3B09 /* main.swift */; };
 		FC0F4CC5259CF10C00AB3B09 /* 9656_StoneGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F4CC4259CF10C00AB3B09 /* 9656_StoneGame.swift */; };
 		FC0F4CC8259CFD7500AB3B09 /* 11722_가장긴감소하는부분수열.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F4CC7259CFD7500AB3B09 /* 11722_가장긴감소하는부분수열.swift */; };
+		FC0F4CCE259DDFCD00AB3B09 /* 15486_퇴사_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F4CCD259DDFCD00AB3B09 /* 15486_퇴사_2.swift */; };
+		FC0F4CD2259DE44400AB3B09 /* Array+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F4CD1259DE44400AB3B09 /* Array+.swift */; };
+		FC0F4CD7259DE54E00AB3B09 /* Resutable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F4CD6259DE54E00AB3B09 /* Resutable.swift */; };
+		FC0F4CDC259DEFE300AB3B09 /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC0F4CDB259DEFE300AB3B09 /* FileIO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +33,10 @@
 		FC0F4CBC259CF08300AB3B09 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FC0F4CC4259CF10C00AB3B09 /* 9656_StoneGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9656_StoneGame.swift; sourceTree = "<group>"; };
 		FC0F4CC7259CFD7500AB3B09 /* 11722_가장긴감소하는부분수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11722_가장긴감소하는부분수열.swift"; sourceTree = "<group>"; };
+		FC0F4CCD259DDFCD00AB3B09 /* 15486_퇴사_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15486_퇴사_2.swift"; sourceTree = "<group>"; };
+		FC0F4CD1259DE44400AB3B09 /* Array+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+.swift"; sourceTree = "<group>"; };
+		FC0F4CD6259DE54E00AB3B09 /* Resutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resutable.swift; sourceTree = "<group>"; };
+		FC0F4CDB259DEFE300AB3B09 /* FileIO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,9 @@
 		FC0F4CBB259CF08300AB3B09 /* CoTe */ = {
 			isa = PBXGroup;
 			children = (
+				FC0F4CDA259DEFD200AB3B09 /* Util */,
+				FC0F4CD5259DE53F00AB3B09 /* Protocol */,
+				FC0F4CD0259DE43500AB3B09 /* Extension */,
 				FC0F4CCA259CFD7800AB3B09 /* DP */,
 				FC0F4CBC259CF08300AB3B09 /* main.swift */,
 			);
@@ -72,8 +83,33 @@
 			children = (
 				FC0F4CC4259CF10C00AB3B09 /* 9656_StoneGame.swift */,
 				FC0F4CC7259CFD7500AB3B09 /* 11722_가장긴감소하는부분수열.swift */,
+				FC0F4CCD259DDFCD00AB3B09 /* 15486_퇴사_2.swift */,
 			);
 			path = DP;
+			sourceTree = "<group>";
+		};
+		FC0F4CD0259DE43500AB3B09 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FC0F4CD1259DE44400AB3B09 /* Array+.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FC0F4CD5259DE53F00AB3B09 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FC0F4CD6259DE54E00AB3B09 /* Resutable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		FC0F4CDA259DEFD200AB3B09 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FC0F4CDB259DEFE300AB3B09 /* FileIO.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +172,10 @@
 				FC0F4CBD259CF08300AB3B09 /* main.swift in Sources */,
 				FC0F4CC8259CFD7500AB3B09 /* 11722_가장긴감소하는부분수열.swift in Sources */,
 				FC0F4CC5259CF10C00AB3B09 /* 9656_StoneGame.swift in Sources */,
+				FC0F4CDC259DEFE300AB3B09 /* FileIO.swift in Sources */,
+				FC0F4CD7259DE54E00AB3B09 /* Resutable.swift in Sources */,
+				FC0F4CCE259DDFCD00AB3B09 /* 15486_퇴사_2.swift in Sources */,
+				FC0F4CD2259DE44400AB3B09 /* Array+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
