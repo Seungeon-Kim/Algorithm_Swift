@@ -21,14 +21,14 @@ import Foundation
 class Solution_6986: Resultable {
     var n: Int = 0
     var length: Int = 0
-    var arr: [Float] = []
+    var arr: [Double] = []
     
     private func read() {
         let input = readLine()!.split(separator: " ").map { Int($0)! }
         (n, length) = (input[0], input[1])
         
         for _ in 0..<n {
-            arr.append(Float(readLine()!)!)
+            arr.append(Double(readLine()!)!)
         }
     }
     
@@ -41,14 +41,14 @@ class Solution_6986: Resultable {
         let sliceArray = arr[startIndex...lastIndex]
         let base = sliceArray.reduce(0, +)
         
-        let result1 = base / Float((arr.count - startIndex * 2))
+        let result1 = base / Double((arr.count - startIndex * 2)) + 0.00000001
         
         let front = sliceArray.first!
         let end = sliceArray.last!
-        let result2 = (base + (front * Float(length)) + (end * Float(length))) / Float(n)
+        let result2 = (base + (front * Double(length)) + (end * Double(length))) / Double(n) + 0.00000001
         
-        print(String(format: "%.2f",  Float(round(100*result1)/100)))
-        print(String(format: "%.2f",  Float(round(100*result2)/100)))
+        print(String(format: "%.2f",  Double(round(100*result1)/100)))
+        print(String(format: "%.2f",  Double(round(100*result2)/100)))
     }
 }
 
