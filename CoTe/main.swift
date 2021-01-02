@@ -7,5 +7,5 @@
 
 import Foundation
 
-let solution: Resultable = Solution_6986()
+let solution: Resultable = Solution_15658()
 solution.result()
