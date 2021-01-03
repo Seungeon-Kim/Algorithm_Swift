@@ -32,7 +32,7 @@
 
 /* Begin PBXFileReference section */
 		FC0F4CB9259CF08300AB3B09 /* CoTe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoTe; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC0F4CBC259CF08300AB3B09 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FC0F4CBC259CF08300AB3B09 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		FC0F4CC4259CF10C00AB3B09 /* 9656_StoneGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9656_StoneGame.swift; sourceTree = "<group>"; };
 		FC0F4CC7259CFD7500AB3B09 /* 11722_가장긴감소하는부분수열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "11722_가장긴감소하는부분수열.swift"; sourceTree = "<group>"; };
 		FC0F4CCD259DDFCD00AB3B09 /* 15486_퇴사_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15486_퇴사_2.swift"; sourceTree = "<group>"; };
